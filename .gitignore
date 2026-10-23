@@ -1,0 +1,25 @@
+# 构建产物
+dist/
+build/.work/
+payload/
+*.zip
+.cache/
+
+# 运行时数据
+home/
+logs/
+workspace/
+
+# 依赖
+node_modules/
+
+# 凭据与本地文件
+.gh-token
+*.token
+*.secret
+.env
+
+# 系统
+Thumbs.db
+desktop.ini
+.DS_Store
